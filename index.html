@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <h1 class="header">Тесты</h1>
+
+    <div class="container-tasck">
+        <div class="container-tasck__question question1">
+            <h2 class="question-title">1.Сколько будет 0 + 1?</h2>
+            <input class="inputElement" type="number" name="" id="" dats-js-answer_1 placeholder="Введите ответ">
+            <button data-js-btn1>Ответить</button>
+            <div class="value" data-js-setValue_1></div>
+        </div>
+
+        <div class="container-tasck__question question2">
+            <h2 class="question-title">2.Сколько будет 1 + 1</h2>
+            <input class="inputElement" type="number" name="" id="" dats-js-answer_2 placeholder="Введите ответ">
+            <button data-js-btn2>Ответить</button>
+            <div class="value" data-js-setValue_2></div>
+        </div>
+
+        <div class="container-tasck__question question3">
+            <h2 class="question-title">3. Выберите число "1"</h2>
+            <div class="radioButtonsContainer" id="father">
+            <div class="radioButtonsContainer-left">
+                <input type="radio" id="" name="number" value="1">
+                <label for="num1">Число "1"</label>
+                <input type="radio" id="" name="number" value="2">
+                <label for="num2">Число "2"</label>
+            </div>
+            <div class="radioButtonsContainer-right">
+                <input type="radio" id="" name="number" value="3">
+                <label for="num3">Число "3"</label>
+                <input type="radio" id="" name="number" value="4">
+                <label for="num4">Число "4"</label>
+            </div>
+            </div>
+            <button data-js-btn3>Ответить</button>
+            <div class="value" data-js-setValue_3></div>
+        </div>
+
+
+        <div class="container-tasck__question question4">
+            <h2 class="question-title">4.Выберете правильные ответы</h2>
+            <div class="check_box-container">
+                <div class="check_box1">
+                    <input type="checkbox" name ='variant' value="Вариант 1">
+                    <label for="variant1">правильный</label>
+                </div>
+                <div class="check_box1">
+                    <input type="checkbox"name ='variant' value="Вариант 2">
+                    <label for="variant2">неправильный</label>
+                </div>
+                <div class="check_box1">
+                    <input type="checkbox"name ='variant' value="Вариант 3">
+                    <label for="variant3">правильный</label>
+                </div>
+                <div class="check_box1">
+                    <input type="checkbox"name ='variant' value="Вариант 4">
+                    <label for="variant4">неправильный</label>
+                </div>
+               
+            </div>
+            
+            <button data-js-btn4>Ответить</button>
+            <div class="value" data-js-setValue_4></div>
+        </div>
+
+        <div class="container-tasck__question question5">
+            <h2 class="question-title">5.Выбирете из списка вариант ответа</h2>
+            <select name="vegetable" id="vegetable" data-js-vegetables >
+                <option value="морковь">морковь</option>
+                <option value="яблоко">яблоко</option>
+                <option value="картошка">картошка</option>
+                <option value="чипсы">чипсы</option>
+                <option value="помидор">помидор</option>
+            </select>
+            <button data-js-btn5>Ответить</button>
+            <div class="value" data-js-setValue_5></div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

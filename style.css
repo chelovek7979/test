@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 0;
+    
+}
+.question-title{
+    padding-left: 10px;
+    margin: 0;
+}
+.container-tasck{
+    border: 1px solid red;
+    height: 1000px;
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-tasck__question{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.value{
+    padding: 5px;
+    background-color: rgb(37, 177, 37);
+    position: absolute;
+    text-align: center;
+    scale: 0;
+    border-radius: 10px ;
+    left: 100%;
+    bottom: 0;
+    transition: .5s;
+}
+.value.active{
+    padding: 5px;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    scale: 1;
+    border-radius: 10px ;
+    left: 25%;
+    bottom: 0;
+    
+}
+
+.inputElement{
+   padding-left: 10px;
+  width: 70%;
+  height: 30px;
+   border-radius: 10px;
+   border: 1px solid black;
+   margin: 0;
+}
+
+button{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
